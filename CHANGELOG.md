@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.1.2 (2023-10-17)
+
+Full Changelog: [v0.1.1...v0.1.2](https://github.com/anthropics/anthropic-bedrock-typescript/compare/v0.1.1...v0.1.2)
+
+### Bug Fixes
+
+* import web-streams-polyfill without overriding globals ([#13](https://github.com/anthropics/anthropic-bedrock-typescript/issues/13)) ([30db709](https://github.com/anthropics/anthropic-bedrock-typescript/commit/30db7098fea0154c8dcb484bfee2ed5c4ec946aa))
+
 ## 0.1.1 (2023-10-16)
 
 Full Changelog: [v0.1.0...v0.1.1](https://github.com/anthropics/anthropic-bedrock-typescript/compare/v0.1.0...v0.1.1)
