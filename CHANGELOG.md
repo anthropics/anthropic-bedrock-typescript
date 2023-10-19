@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.2.0 (2023-10-19)
+
+Full Changelog: [v0.1.2...v0.2.0](https://github.com/anthropics/anthropic-bedrock-typescript/compare/v0.1.2...v0.2.0)
+
+### Features
+
+* handle 204 No Content gracefully ([#17](https://github.com/anthropics/anthropic-bedrock-typescript/issues/17)) ([f11420b](https://github.com/anthropics/anthropic-bedrock-typescript/commit/f11420b2a9e2b9a127194bd811708f9f010447b5))
+
 ## 0.1.2 (2023-10-17)
 
 Full Changelog: [v0.1.1...v0.1.2](https://github.com/anthropics/anthropic-bedrock-typescript/compare/v0.1.1...v0.1.2)
