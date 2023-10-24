@@ -158,12 +158,12 @@ describe('instantiate client', () => {
 
   test('maxRetries option is correctly set', () => {
     const client = new AnthropicBedrock({
-      maxRetries: 1,
+      maxRetries: 4,
       awsSecretKey: '<secret key>',
       awsAccessKey: '<access key>',
       awsRegion: 'us-east-2',
     });
-    expect(client.maxRetries).toEqual(1);
+    expect(client.maxRetries).toEqual(4);
 
     // default
     const client2 = new AnthropicBedrock({
