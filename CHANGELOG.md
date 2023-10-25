@@ -1,5 +1,18 @@
 # Changelog
 
+## 0.3.0 (2023-10-25)
+
+Full Changelog: [v0.2.0...v0.3.0](https://github.com/anthropics/anthropic-bedrock-typescript/compare/v0.2.0...v0.3.0)
+
+### Features
+
+* **client:** adjust retry behavior to be exponential backoff ([#18](https://github.com/anthropics/anthropic-bedrock-typescript/issues/18)) ([51d3a6e](https://github.com/anthropics/anthropic-bedrock-typescript/commit/51d3a6e8ab71ba935bd71b497d83df1896835199))
+
+
+### Bug Fixes
+
+* typo in build script ([#21](https://github.com/anthropics/anthropic-bedrock-typescript/issues/21)) ([b86502d](https://github.com/anthropics/anthropic-bedrock-typescript/commit/b86502d913b2d607c49db9fc1c5656d2a089e7a9))
+
 ## 0.2.0 (2023-10-19)
 
 Full Changelog: [v0.1.2...v0.2.0](https://github.com/anthropics/anthropic-bedrock-typescript/compare/v0.1.2...v0.2.0)
