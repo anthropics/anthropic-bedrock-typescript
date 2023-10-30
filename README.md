@@ -4,7 +4,7 @@
 
 This library provides convenient access to the [Anthropic Bedrock](https://docs.anthropic.com/claude/docs/claude-on-amazon-bedrock) REST API from server-side TypeScript or JavaScript.
 
-For the non-Bedrock Anthropic API at api.anthropic.com, see [`@anthropic-ai/sdk`](github.com/anthropics/anthropic-sdk-typescript).
+For the non-Bedrock Anthropic API at api.anthropic.com, see [`@anthropic-ai/sdk`](https://github.com/anthropics/anthropic-sdk-typescript).
 
 The API documentation can be found [here](https://docs.anthropic.com/claude/reference/).
 
