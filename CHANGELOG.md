@@ -1,5 +1,26 @@
 # Changelog
 
+## 0.4.0 (2023-11-04)
+
+Full Changelog: [v0.3.0...v0.4.0](https://github.com/anthropics/anthropic-bedrock-typescript/compare/v0.3.0...v0.4.0)
+
+### Features
+
+* **client:** allow binary returns ([#27](https://github.com/anthropics/anthropic-bedrock-typescript/issues/27)) ([d9e84a1](https://github.com/anthropics/anthropic-bedrock-typescript/commit/d9e84a1f8d25d43f3eb256723bfb89cf0d354453))
+* **github:** include a devcontainer setup ([#26](https://github.com/anthropics/anthropic-bedrock-typescript/issues/26)) ([c37cf14](https://github.com/anthropics/anthropic-bedrock-typescript/commit/c37cf14409464bceeacb97cb6f8e098a1bfefd2d))
+
+
+### Chores
+
+* **internal:** update gitignore ([#22](https://github.com/anthropics/anthropic-bedrock-typescript/issues/22)) ([d448991](https://github.com/anthropics/anthropic-bedrock-typescript/commit/d448991a6f24c0a50f686380957473bfa2cd13b7))
+* small cleanups ([#25](https://github.com/anthropics/anthropic-bedrock-typescript/issues/25)) ([d18cfcb](https://github.com/anthropics/anthropic-bedrock-typescript/commit/d18cfcb28428ca944b423ea515d046720553c28d))
+
+
+### Documentation
+
+* document customizing fetch ([#28](https://github.com/anthropics/anthropic-bedrock-typescript/issues/28)) ([878bd1b](https://github.com/anthropics/anthropic-bedrock-typescript/commit/878bd1b240dc319e3ab37b7e8b4fe96eb155688a))
+* fix github links ([#24](https://github.com/anthropics/anthropic-bedrock-typescript/issues/24)) ([9560ba7](https://github.com/anthropics/anthropic-bedrock-typescript/commit/9560ba7c165d373a23d77d8d14a864845e2dc721))
+
 ## 0.3.0 (2023-10-25)
 
 Full Changelog: [v0.2.0...v0.3.0](https://github.com/anthropics/anthropic-bedrock-typescript/compare/v0.2.0...v0.3.0)
