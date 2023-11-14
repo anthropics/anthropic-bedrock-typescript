@@ -24,11 +24,10 @@ export class Completions extends APIResource {
     options?: Core.RequestOptions,
   ): APIPromise<Completion> | APIPromise<Stream<Completion>> {
     const { model, stream, ...body } = params;
-    return this.post(stream ? `/model/${model}/invoke-with-response-stream` : `/model/${model}/invoke`, {
-      body: { anthropic_version: 'bedrock-2023-05-31', ...body },
-      ...options,
-      stream: stream ?? false,
-    }) as APIPromise<Completion> | APIPromise<Stream<Completion>>;
+    return this._client.post(
+      stream ? `/model/${model}/invoke-with-response-stream` : `/model/${model}/invoke`,
+      { body: { anthropic_version: 'bedrock-2023-05-31', ...body }, ...options, stream: stream ?? false },
+    ) as APIPromise<Completion> | APIPromise<Stream<Completion>>;
   }
 }
 
