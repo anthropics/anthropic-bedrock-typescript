@@ -1,5 +1,17 @@
 # Changelog
 
+## 0.4.1 (2023-11-14)
+
+Full Changelog: [v0.4.0...v0.4.1](https://github.com/anthropics/anthropic-bedrock-typescript/compare/v0.4.0...v0.4.1)
+
+### Chores
+
+* **ci:** update release-please config ([#29](https://github.com/anthropics/anthropic-bedrock-typescript/issues/29)) ([9f932f7](https://github.com/anthropics/anthropic-bedrock-typescript/commit/9f932f7091d3c0a31c650d326c7669ee90c534ee))
+* **docs:** fix github links ([#31](https://github.com/anthropics/anthropic-bedrock-typescript/issues/31)) ([8c433fd](https://github.com/anthropics/anthropic-bedrock-typescript/commit/8c433fdde7c618afc7b5ecd32c85eb06dd0f048b))
+* **internal:** update APIResource structure ([#34](https://github.com/anthropics/anthropic-bedrock-typescript/issues/34)) ([c85a2e3](https://github.com/anthropics/anthropic-bedrock-typescript/commit/c85a2e3bfa8d95ea2d7444d32ba884984b7e61e7))
+* **internal:** update jest config ([#33](https://github.com/anthropics/anthropic-bedrock-typescript/issues/33)) ([a46da67](https://github.com/anthropics/anthropic-bedrock-typescript/commit/a46da679e8f40600fa37c0de3a90c633b78356eb))
+* **internal:** update tsconfig ([#32](https://github.com/anthropics/anthropic-bedrock-typescript/issues/32)) ([b9295df](https://github.com/anthropics/anthropic-bedrock-typescript/commit/b9295dff2a3aa721f057d64dfc41eaf7d6bd0f6c))
+
 ## 0.4.0 (2023-11-04)
 
 Full Changelog: [v0.3.0...v0.4.0](https://github.com/anthropics/anthropic-bedrock-typescript/compare/v0.3.0...v0.4.0)
