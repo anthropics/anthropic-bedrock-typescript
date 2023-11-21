@@ -1,5 +1,19 @@
 # Changelog
 
+## 0.5.0 (2023-11-21)
+
+Full Changelog: [v0.4.1...v0.5.0](https://github.com/anthropics/anthropic-bedrock-typescript/compare/v0.4.1...v0.5.0)
+
+### Features
+
+* allow installing package directly from github ([#37](https://github.com/anthropics/anthropic-bedrock-typescript/issues/37)) ([758b62f](https://github.com/anthropics/anthropic-bedrock-typescript/commit/758b62f86b7d62229f9f41c931c03eebc16d03fc))
+
+
+### Chores
+
+* **ci:** fix publish-npm ([#35](https://github.com/anthropics/anthropic-bedrock-typescript/issues/35)) ([03ca66d](https://github.com/anthropics/anthropic-bedrock-typescript/commit/03ca66d6a9b9d7fcc7f930c62535d162e46917ea))
+* **internal:** don't call prepare in dist ([#38](https://github.com/anthropics/anthropic-bedrock-typescript/issues/38)) ([21038f6](https://github.com/anthropics/anthropic-bedrock-typescript/commit/21038f62cf3dafda7cf9f79d5694bd2e89392bc6))
+
 ## 0.4.1 (2023-11-14)
 
 Full Changelog: [v0.4.0...v0.4.1](https://github.com/anthropics/anthropic-bedrock-typescript/compare/v0.4.0...v0.4.1)
