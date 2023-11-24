@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.5.1 (2023-11-24)
+
+Full Changelog: [v0.5.0...v0.5.1](https://github.com/anthropics/anthropic-bedrock-typescript/compare/v0.5.0...v0.5.1)
+
+### Chores
+
+* **internal:** remove file import and conditionally run prepare ([#39](https://github.com/anthropics/anthropic-bedrock-typescript/issues/39)) ([546295e](https://github.com/anthropics/anthropic-bedrock-typescript/commit/546295e63e5d0c373f7f84d36b98cf8094c2c5c8))
+
 ## 0.5.0 (2023-11-21)
 
 Full Changelog: [v0.4.1...v0.5.0](https://github.com/anthropics/anthropic-bedrock-typescript/compare/v0.4.1...v0.5.0)
