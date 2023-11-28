@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.5.2 (2023-11-28)
+
+Full Changelog: [v0.5.1...v0.5.2](https://github.com/anthropics/anthropic-bedrock-typescript/compare/v0.5.1...v0.5.2)
+
 ## 0.5.1 (2023-11-24)
 
 Full Changelog: [v0.5.0...v0.5.1](https://github.com/anthropics/anthropic-bedrock-typescript/compare/v0.5.0...v0.5.1)
