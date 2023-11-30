@@ -154,6 +154,30 @@ describe('instantiate client', () => {
       });
       expect(client.buildURL('/foo', null)).toEqual('http://localhost:5000/custom/path/foo');
     });
+
+    afterEach(() => {
+      process.env['SINK_BASE_URL'] = undefined;
+    });
+
+    test('explicit option', () => {
+      const client = new AnthropicBedrock({
+        baseURL: 'https://example.com',
+        awsSecretKey: '<secret key>',
+        awsAccessKey: '<access key>',
+        awsRegion: 'us-east-2',
+      });
+      expect(client.baseURL).toEqual('https://example.com');
+    });
+
+    test('env variable', () => {
+      process.env['ANTHROPIC_BEDROCK_BASE_URL'] = 'https://example.com/from_env';
+      const client = new AnthropicBedrock({
+        awsSecretKey: '<secret key>',
+        awsAccessKey: '<access key>',
+        awsRegion: 'us-east-2',
+      });
+      expect(client.baseURL).toEqual('https://example.com/from_env');
+    });
   });
 
   test('maxRetries option is correctly set', () => {

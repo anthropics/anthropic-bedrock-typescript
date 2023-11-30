@@ -22,8 +22,10 @@ export interface ClientOptions {
 
   /**
    * Override the default base URL for the API, e.g., "https://api.example.com/v2/"
+   *
+   * Defaults to process.env['ANTHROPIC_BEDROCK_BASE_URL'].
    */
-  baseURL?: string;
+  baseURL?: string | null | undefined;
 
   /**
    * The maximum amount of time (in milliseconds) that the client should wait for a response
@@ -89,9 +91,9 @@ export class AnthropicBedrock extends Core.APIClient {
    *
    * @param {string | null} [opts.awsSecretKey]
    * @param {string | null} [opts.awsAccessKey]
-   * @param {string} [opts.awsRegion==process.env['AWS_REGION'] ?? us-east-1]
+   * @param {string} [opts.awsRegion=process.env['AWS_REGION'] ?? us-east-1]
    * @param {string | null} [opts.awsSessionToken]
-   * @param {string} [opts.baseURL] - Override the default base URL for the API.
+   * @param {string} [opts.baseURL=process.env['ANTHROPIC_BEDROCK_BASE_URL'] ?? https://bedrock-runtime.SDK_ClientAttribute__aws_region.amazonaws.com] - Override the default base URL for the API.
    * @param {number} [opts.timeout=1 minute] - The maximum amount of time (in milliseconds) the client will wait for a response before timing out.
    * @param {number} [opts.httpAgent] - An HTTP agent used to manage HTTP(s) connections.
    * @param {Core.Fetch} [opts.fetch] - Specify a custom `fetch` function implementation.
@@ -100,6 +102,7 @@ export class AnthropicBedrock extends Core.APIClient {
    * @param {Core.DefaultQuery} opts.defaultQuery - Default query parameters to include with every request to the API.
    */
   constructor({
+    baseURL = Core.readEnv('ANTHROPIC_BEDROCK_BASE_URL'),
     awsSecretKey = null,
     awsAccessKey = null,
     awsRegion = Core.readEnv('AWS_REGION') ?? 'us-east-1',
@@ -112,7 +115,7 @@ export class AnthropicBedrock extends Core.APIClient {
       awsRegion,
       awsSessionToken,
       ...opts,
-      baseURL: opts.baseURL ?? `https://bedrock-runtime.${awsRegion}.amazonaws.com`,
+      baseURL: baseURL ?? `https://bedrock-runtime.${awsRegion}.amazonaws.com`,
     };
 
     super({
