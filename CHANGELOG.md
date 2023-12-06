@@ -1,5 +1,18 @@
 # Changelog
 
+## 0.6.0 (2023-12-06)
+
+Full Changelog: [v0.5.2...v0.6.0](https://github.com/anthropics/anthropic-bedrock-typescript/compare/v0.5.2...v0.6.0)
+
+### Features
+
+* **client:** support reading the base url from an env variable ([#43](https://github.com/anthropics/anthropic-bedrock-typescript/issues/43)) ([783e9a1](https://github.com/anthropics/anthropic-bedrock-typescript/commit/783e9a1c6bacbc18028ee5e052758103e7c89453))
+
+
+### Bug Fixes
+
+* bump default request timeout to 10min to match documentation ([#47](https://github.com/anthropics/anthropic-bedrock-typescript/issues/47)) ([16d2d96](https://github.com/anthropics/anthropic-bedrock-typescript/commit/16d2d960dfb8076bb41d769a35aeaec564177238))
+
 ## 0.5.2 (2023-11-28)
 
 Full Changelog: [v0.5.1...v0.5.2](https://github.com/anthropics/anthropic-bedrock-typescript/compare/v0.5.1...v0.5.2)
