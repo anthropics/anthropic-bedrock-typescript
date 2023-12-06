@@ -169,7 +169,7 @@ await client.completions.create(
 
 ### Timeouts
 
-Requests time out after 1 minute by default. You can configure this with a `timeout` option:
+Requests time out after 10 minutes by default. You can configure this with a `timeout` option:
 
 <!-- prettier-ignore -->
 ```ts
