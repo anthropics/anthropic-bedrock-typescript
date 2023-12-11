@@ -40,7 +40,7 @@ const client = new AnthropicBedrock({
 
 async function main() {
   const completion = await client.completions.create({
-    model: 'anthropic.claude-v2',
+    model: 'anthropic.claude-v2:1',
     max_tokens_to_sample: 256,
     prompt: `${AnthropicBedrock.HUMAN_PROMPT} how does a court case get to the Supreme Court? ${AnthropicBedrock.AI_PROMPT}`,
   });
@@ -59,7 +59,7 @@ const client = new AnthropicBedrock();
 
 const stream = await client.completions.create({
   prompt: `${AnthropicBedrock.HUMAN_PROMPT} Your prompt here${AnthropicBedrock.AI_PROMPT}`,
-  model: 'anthropic.claude-v2',
+  model: 'anthropic.claude-v2:1',
   stream: true,
   max_tokens_to_sample: 300,
 });
@@ -82,7 +82,7 @@ const client = new AnthropicBedrock();
 
 async function main() {
   const params: AnthropicBedrock.CompletionCreateParams = {
-    model: 'anthropic.claude-v2',
+    model: 'anthropic.claude-v2:1',
     prompt: `${AnthropicBedrock.HUMAN_PROMPT} how does a court case get to the Supreme Court? ${AnthropicBedrock.AI_PROMPT}`,
     max_tokens_to_sample: 256,
   };
@@ -111,7 +111,7 @@ a subclass of `APIError` will be thrown:
 async function main() {
   const completion = await anthropicBedrock.completions
     .create({
-      model: 'anthropic.claude-v2',
+      model: 'anthropic.claude-v2:1',
       prompt: `${AnthropicBedrock.HUMAN_PROMPT} your prompt here ${AnthropicBedrock.AI_PROMPT}`,
       max_tokens_to_sample: 256,
     })
@@ -159,7 +159,7 @@ await client.completions.create(
   {
     prompt: `${AnthropicBedrock.HUMAN_PROMPT} Can you help me effectively ask for a raise at work?${AnthropicBedrock.AI_PROMPT}`,
     max_tokens_to_sample: 300,
-    model: 'anthropic.claude-v2',
+    model: 'anthropic.claude-v2:1',
   },
   {
     maxRetries: 5,
@@ -183,7 +183,7 @@ await client.completions.create(
   {
     prompt: `${AnthropicBedrock.HUMAN_PROMPT} Where can I get a good coffee in my neighbourhood?${AnthropicBedrock.AI_PROMPT}`,
     max_tokens_to_sample: 300,
-    model: 'anthropic.claude-v2',
+    model: 'anthropic.claude-v2:1',
   },
   {
     timeout: 5 * 1000,
@@ -206,7 +206,7 @@ You can also use the `.withResponse()` method to get the raw `Response` along wi
 ```ts
 const response = await client.completions
   .create({
-    model: 'anthropic.claude-v2',
+    model: 'anthropic.claude-v2:1',
     prompt: `${AnthropicBedrock.HUMAN_PROMPT} your prompt here ${AnthropicBedrock.AI_PROMPT}`,
     max_tokens_to_sample: 256,
   })
@@ -217,7 +217,7 @@ console.log(response.statusText); // access the underlying Response object
 
 const { data: completions, response: raw } = await client.completions
   .create({
-    model: 'anthropic.claude-v2',
+    model: 'anthropic.claude-v2:1',
     prompt: `${AnthropicBedrock.HUMAN_PROMPT} your prompt here ${AnthropicBedrock.AI_PROMPT}`,
     max_tokens_to_sample: 256,
   })
@@ -288,7 +288,7 @@ await client.completions.create(
   {
     prompt: `${AnthropicBedrock.HUMAN_PROMPT} How does a court case get to the Supreme Court?${AnthropicBedrock.AI_PROMPT}`,
     max_tokens_to_sample: 300,
-    model: 'anthropic.claude-v2',
+    model: 'anthropic.claude-v2:1',
   },
   {
     baseURL: 'http://localhost:8080/test-api',

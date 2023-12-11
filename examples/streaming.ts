@@ -14,7 +14,7 @@ async function main() {
 
   const stream = await client.completions.create({
     prompt: `${AnthropicBedrock.HUMAN_PROMPT}${question}${AnthropicBedrock.AI_PROMPT}:`,
-    model: 'anthropic.claude-v2',
+    model: 'anthropic.claude-v2:1',
     stream: true,
     max_tokens_to_sample: 500,
   });
