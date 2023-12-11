@@ -13,7 +13,7 @@ const anthropicBedrock = new AnthropicBedrock({
 describe('resource completions', () => {
   test('create: only required params', async () => {
     const responsePromise = anthropicBedrock.completions.create({
-      model: 'anthropic.claude-v2',
+      model: 'anthropic.claude-v2:1',
       max_tokens_to_sample: 256,
       prompt: '\n\nHuman: Hello, world!\n\nAssistant:',
     });
@@ -28,7 +28,7 @@ describe('resource completions', () => {
 
   test('create: required and optional params', async () => {
     const response = await anthropicBedrock.completions.create({
-      model: 'anthropic.claude-v2',
+      model: 'anthropic.claude-v2:1',
       max_tokens_to_sample: 256,
       prompt: '\n\nHuman: Hello, world!\n\nAssistant:',
       stop_sequences: ['string', 'string', 'string'],

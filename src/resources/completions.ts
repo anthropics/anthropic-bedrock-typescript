@@ -55,7 +55,12 @@ export interface CompletionCreateParamsBase {
   /**
    * Path param: Bedrock model ID
    */
-  model: (string & {}) | 'anthropic.claude-v2' | 'anthropic.claude-v1' | 'anthropic.claude-instant-v1';
+  model:
+    | (string & {})
+    | 'anthropic.claude-v2:1'
+    | 'anthropic.claude-v2'
+    | 'anthropic.claude-v1'
+    | 'anthropic.claude-instant-v1';
 
   /**
    * Body param: The maximum number of tokens to generate before stopping.
