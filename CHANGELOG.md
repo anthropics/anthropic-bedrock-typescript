@@ -1,5 +1,33 @@
 # Changelog
 
+## 0.6.1 (2023-12-20)
+
+Full Changelog: [v0.6.0...v0.6.1](https://github.com/anthropics/anthropic-bedrock-typescript/compare/v0.6.0...v0.6.1)
+
+### Chores
+
+* **ci:** run release workflow once per day ([#54](https://github.com/anthropics/anthropic-bedrock-typescript/issues/54)) ([b5072dd](https://github.com/anthropics/anthropic-bedrock-typescript/commit/b5072ddc0c068737cdca2dd6ecfcb231ac7edc1b))
+* **deps:** update dependency ts-jest to v29.1.1 ([#55](https://github.com/anthropics/anthropic-bedrock-typescript/issues/55)) ([946a832](https://github.com/anthropics/anthropic-bedrock-typescript/commit/946a8326410b47143f2c9e611e6b62866d5d9734))
+* **deps:** update jest ([#56](https://github.com/anthropics/anthropic-bedrock-typescript/issues/56)) ([492232d](https://github.com/anthropics/anthropic-bedrock-typescript/commit/492232de92f7d79b42869ca619cc85ae4a1b7966))
+* **internal:** update test examples ([#50](https://github.com/anthropics/anthropic-bedrock-typescript/issues/50)) ([33132ea](https://github.com/anthropics/anthropic-bedrock-typescript/commit/33132eaab93f2fa39cc9e975df0b0323bb486395))
+* update dependencies ([#53](https://github.com/anthropics/anthropic-bedrock-typescript/issues/53)) ([4a72bd7](https://github.com/anthropics/anthropic-bedrock-typescript/commit/4a72bd7f857a7024ff0e8caf574e92998431f4f3))
+* update prettier ([#52](https://github.com/anthropics/anthropic-bedrock-typescript/issues/52)) ([acfe9e4](https://github.com/anthropics/anthropic-bedrock-typescript/commit/acfe9e46299275fc14c9a704c7c048c87e0e33db))
+
+
+### Documentation
+
+* reformat README.md ([#58](https://github.com/anthropics/anthropic-bedrock-typescript/issues/58)) ([050b328](https://github.com/anthropics/anthropic-bedrock-typescript/commit/050b328725d37f5a0876704b5754953967495ada))
+
+
+### Refactors
+
+* write jest config in typescript ([#57](https://github.com/anthropics/anthropic-bedrock-typescript/issues/57)) ([bbaa155](https://github.com/anthropics/anthropic-bedrock-typescript/commit/bbaa155e6377283a12258a470d4d10da3d9ebe54))
+
+
+### Build System
+
+* specify `packageManager: yarn` ([#51](https://github.com/anthropics/anthropic-bedrock-typescript/issues/51)) ([59453e5](https://github.com/anthropics/anthropic-bedrock-typescript/commit/59453e581ad770fb1d12a7458774d7427d0b90de))
+
 ## 0.6.0 (2023-12-06)
 
 Full Changelog: [v0.5.2...v0.6.0](https://github.com/anthropics/anthropic-bedrock-typescript/compare/v0.5.2...v0.6.0)
