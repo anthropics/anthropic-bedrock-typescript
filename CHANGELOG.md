@@ -1,5 +1,18 @@
 # Changelog
 
+## 0.6.2 (2024-01-07)
+
+Full Changelog: [v0.6.1...v0.6.2](https://github.com/anthropics/anthropic-bedrock-typescript/compare/v0.6.1...v0.6.2)
+
+### Bug Fixes
+
+* **headers:** always send lowercase headers and strip undefined (BREAKING in rare cases) ([#60](https://github.com/anthropics/anthropic-bedrock-typescript/issues/60)) ([9cc4518](https://github.com/anthropics/anthropic-bedrock-typescript/commit/9cc4518ebd41d6ee438e686f4d0da2629e511796))
+
+
+### Chores
+
+* **internal:** improve type signatures ([#62](https://github.com/anthropics/anthropic-bedrock-typescript/issues/62)) ([6e24bdc](https://github.com/anthropics/anthropic-bedrock-typescript/commit/6e24bdc7ee82252243c0f83c68c5b6a363d756fc))
+
 ## 0.6.1 (2023-12-20)
 
 Full Changelog: [v0.6.0...v0.6.1](https://github.com/anthropics/anthropic-bedrock-typescript/compare/v0.6.0...v0.6.1)
