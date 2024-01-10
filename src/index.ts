@@ -115,7 +115,7 @@ export class AnthropicBedrock extends Core.APIClient {
       awsRegion,
       awsSessionToken,
       ...opts,
-      baseURL: baseURL ?? `https://bedrock-runtime.${awsRegion}.amazonaws.com`,
+      baseURL: baseURL || `https://bedrock-runtime.${awsRegion}.amazonaws.com`,
     };
 
     super({
