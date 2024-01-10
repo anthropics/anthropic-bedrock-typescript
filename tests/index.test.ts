@@ -156,7 +156,7 @@ describe('instantiate client', () => {
     });
 
     afterEach(() => {
-      process.env['SINK_BASE_URL'] = undefined;
+      process.env['ANTHROPIC_BEDROCK_BASE_URL'] = undefined;
     });
 
     test('explicit option', () => {
