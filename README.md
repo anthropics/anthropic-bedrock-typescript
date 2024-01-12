@@ -6,7 +6,7 @@ This library provides convenient access to the [Anthropic Bedrock](https://docs.
 
 For the non-Bedrock Anthropic API at api.anthropic.com, see [`@anthropic-ai/sdk`](https://github.com/anthropics/anthropic-sdk-typescript).
 
-The API documentation can be found [here](https://docs.anthropic.com/claude/reference/).
+The REST API documentation can be found [on docs.anthropic.com](https://docs.anthropic.com/claude/reference/). The full API of this library can be found in [api.md](https://www.github.com/anthropics/anthropic-bedrock-typescript/blob/main/api.md).
 
 ## Installation
 
