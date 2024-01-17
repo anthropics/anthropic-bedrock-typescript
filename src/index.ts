@@ -9,16 +9,16 @@ import { getAuthHeaders } from './auth';
 import * as API from '@anthropic-ai/bedrock-sdk/resources/index';
 
 export interface ClientOptions {
-  awsSecretKey?: string | null;
+  awsSecretKey?: string | null | undefined;
 
-  awsAccessKey?: string | null;
+  awsAccessKey?: string | null | undefined;
 
   /**
    * Defaults to process.env['AWS_REGION'].
    */
-  awsRegion?: string;
+  awsRegion?: string | undefined;
 
-  awsSessionToken?: string | null;
+  awsSessionToken?: string | null | undefined;
 
   /**
    * Override the default base URL for the API, e.g., "https://api.example.com/v2/"
@@ -89,10 +89,10 @@ export class AnthropicBedrock extends Core.APIClient {
   /**
    * API Client for interfacing with the Anthropic Bedrock API.
    *
-   * @param {string | null} [opts.awsSecretKey]
-   * @param {string | null} [opts.awsAccessKey]
-   * @param {string} [opts.awsRegion=process.env['AWS_REGION'] ?? us-east-1]
-   * @param {string | null} [opts.awsSessionToken]
+   * @param {string | null | undefined} [opts.awsSecretKey]
+   * @param {string | null | undefined} [opts.awsAccessKey]
+   * @param {string | undefined} [opts.awsRegion=process.env['AWS_REGION'] ?? us-east-1]
+   * @param {string | null | undefined} [opts.awsSessionToken]
    * @param {string} [opts.baseURL=process.env['ANTHROPIC_BEDROCK_BASE_URL'] ?? https://bedrock-runtime.SDK_ClientAttribute__aws_region.amazonaws.com] - Override the default base URL for the API.
    * @param {number} [opts.timeout=10 minutes] - The maximum amount of time (in milliseconds) the client will wait for a response before timing out.
    * @param {number} [opts.httpAgent] - An HTTP agent used to manage HTTP(s) connections.
