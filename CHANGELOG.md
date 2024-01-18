@@ -1,5 +1,30 @@
 # Changelog
 
+## 0.6.2 (2024-01-18)
+
+Full Changelog: [v0.6.1...v0.6.2](https://github.com/anthropics/anthropic-bedrock-typescript/compare/v0.6.1...v0.6.2)
+
+### Bug Fixes
+
+* **ci:** ignore stainless-app edits to release PR title ([#70](https://github.com/anthropics/anthropic-bedrock-typescript/issues/70)) ([c3a058c](https://github.com/anthropics/anthropic-bedrock-typescript/commit/c3a058cccfdc0f0db1fbf06c57c13374bad58015))
+* **headers:** always send lowercase headers and strip undefined (BREAKING in rare cases) ([#60](https://github.com/anthropics/anthropic-bedrock-typescript/issues/60)) ([9cc4518](https://github.com/anthropics/anthropic-bedrock-typescript/commit/9cc4518ebd41d6ee438e686f4d0da2629e511796))
+* **types:** accept undefined for optional client options ([#69](https://github.com/anthropics/anthropic-bedrock-typescript/issues/69)) ([cf597f6](https://github.com/anthropics/anthropic-bedrock-typescript/commit/cf597f6384337109011cd7d920b6a6530cdef74f))
+* use default base url if BASE_URL env var is blank ([#64](https://github.com/anthropics/anthropic-bedrock-typescript/issues/64)) ([134bf8f](https://github.com/anthropics/anthropic-bedrock-typescript/commit/134bf8f35d6071224280c9bed6151e107fee3c93))
+
+
+### Chores
+
+* add .keep files for examples and custom code directories ([#63](https://github.com/anthropics/anthropic-bedrock-typescript/issues/63)) ([0064f30](https://github.com/anthropics/anthropic-bedrock-typescript/commit/0064f3035cf4a11645c632abf1e026ee27ac92a2))
+* **internal:** debug logging for retries; speculative retry-after-ms support ([#68](https://github.com/anthropics/anthropic-bedrock-typescript/issues/68)) ([e6a95f6](https://github.com/anthropics/anthropic-bedrock-typescript/commit/e6a95f644a300c5e3d5856edcaf98c60c953e461))
+* **internal:** improve type signatures ([#62](https://github.com/anthropics/anthropic-bedrock-typescript/issues/62)) ([6e24bdc](https://github.com/anthropics/anthropic-bedrock-typescript/commit/6e24bdc7ee82252243c0f83c68c5b6a363d756fc))
+* **internal:** narrow type into stringifyQuery ([#65](https://github.com/anthropics/anthropic-bedrock-typescript/issues/65)) ([443febf](https://github.com/anthropics/anthropic-bedrock-typescript/commit/443febf02c4c71b28934a776da0198fdd094de8f))
+
+
+### Documentation
+
+* fix missing async in readme code sample ([#67](https://github.com/anthropics/anthropic-bedrock-typescript/issues/67)) ([a6d20eb](https://github.com/anthropics/anthropic-bedrock-typescript/commit/a6d20eb8d3d4c6be9d92afd4eb7d93ea5c661094))
+* **readme:** improve api reference ([#66](https://github.com/anthropics/anthropic-bedrock-typescript/issues/66)) ([f90bbaf](https://github.com/anthropics/anthropic-bedrock-typescript/commit/f90bbaf631e9ac34fb613a43ece1f489d82f04b8))
+
 ## 0.6.1 (2023-12-20)
 
 Full Changelog: [v0.6.0...v0.6.1](https://github.com/anthropics/anthropic-bedrock-typescript/compare/v0.6.0...v0.6.1)
