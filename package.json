@@ -1,6 +1,6 @@
 {
   "name": "@anthropic-ai/bedrock-sdk",
-  "version": "0.6.1",
+  "version": "0.6.2",
   "description": "The official TypeScript library for the Anthropic Bedrock API",
   "author": "Anthropic Bedrock <dev-feedback@anthropic.com>",
   "types": "dist/index.d.ts",
