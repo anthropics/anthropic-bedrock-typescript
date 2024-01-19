@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.6.3 (2024-01-19)
+
+Full Changelog: [v0.6.2...v0.6.3](https://github.com/anthropics/anthropic-bedrock-typescript/compare/v0.6.2...v0.6.3)
+
+### Bug Fixes
+
+* allow body type in RequestOptions to be null ([#71](https://github.com/anthropics/anthropic-bedrock-typescript/issues/71)) ([a04f753](https://github.com/anthropics/anthropic-bedrock-typescript/commit/a04f7538e789324cebcea61476c1d745bbfc30cf))
+
 ## 0.6.2 (2024-01-18)
 
 Full Changelog: [v0.6.1...v0.6.2](https://github.com/anthropics/anthropic-bedrock-typescript/compare/v0.6.1...v0.6.2)
