@@ -6,9 +6,9 @@ import { APIError } from '@anthropic-ai/bedrock-sdk/error';
 import { de_ResponseStream } from '@anthropic-ai/bedrock-sdk/aws/AWS_restJson1';
 import { getMinimalSerdeContext, toUtf8 } from '@anthropic-ai/bedrock-sdk/aws/streaming';
 
-type Bytes = string | ArrayBuffer | Uint8Array | Buffer | null | undefined;
+export type Bytes = string | ArrayBuffer | Uint8Array | Buffer | null | undefined;
 
-type ServerSentEvent = {
+export type ServerSentEvent = {
   event: string | null;
   data: string;
   raw: string[];
@@ -379,7 +379,7 @@ function partition(str: string, delimiter: string): [string, string, string] {
  *
  * This polyfill was pulled from https://github.com/MattiasBuelens/web-streams-polyfill/pull/122#issuecomment-1627354490
  */
-function readableStreamAsyncIterable<T>(stream: any): AsyncIterableIterator<T> {
+export function readableStreamAsyncIterable<T>(stream: any): AsyncIterableIterator<T> {
   if (stream[Symbol.asyncIterator]) return stream;
 
   const reader = stream.getReader();
