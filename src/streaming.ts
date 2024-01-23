@@ -6,7 +6,7 @@ import { APIError } from '@anthropic-ai/bedrock-sdk/error';
 import { de_ResponseStream } from '@anthropic-ai/bedrock-sdk/aws/AWS_restJson1';
 import { getMinimalSerdeContext, toUtf8 } from '@anthropic-ai/bedrock-sdk/aws/streaming';
 
-export type Bytes = string | ArrayBuffer | Uint8Array | Buffer | null | undefined;
+type Bytes = string | ArrayBuffer | Uint8Array | Buffer | null | undefined;
 
 export type ServerSentEvent = {
   event: string | null;
