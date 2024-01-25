@@ -1,5 +1,15 @@
 # Changelog
 
+## 0.6.4 (2024-01-25)
+
+Full Changelog: [v0.6.3...v0.6.4](https://github.com/anthropics/anthropic-bedrock-typescript/compare/v0.6.3...v0.6.4)
+
+### Chores
+
+* **internal:** add internal helpers & improve build scripts ([#73](https://github.com/anthropics/anthropic-bedrock-typescript/issues/73)) ([d12b655](https://github.com/anthropics/anthropic-bedrock-typescript/commit/d12b655286e3677e4a24a5616bb633b553fa5784))
+* **internal:** don't re-export streaming type ([#76](https://github.com/anthropics/anthropic-bedrock-typescript/issues/76)) ([92fb967](https://github.com/anthropics/anthropic-bedrock-typescript/commit/92fb967c40d8c730441fc3b42bef92bc478436aa))
+* **internal:** minor streaming updates ([#75](https://github.com/anthropics/anthropic-bedrock-typescript/issues/75)) ([73bac4c](https://github.com/anthropics/anthropic-bedrock-typescript/commit/73bac4c4f2f6edc4b7a72274cd3146c5821b53a8))
+
 ## 0.6.3 (2024-01-19)
 
 Full Changelog: [v0.6.2...v0.6.3](https://github.com/anthropics/anthropic-bedrock-typescript/compare/v0.6.2...v0.6.3)
