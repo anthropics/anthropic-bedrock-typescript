@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.6.5 (2024-01-30)
+
+Full Changelog: [v0.6.4...v0.6.5](https://github.com/anthropics/anthropic-bedrock-typescript/compare/v0.6.4...v0.6.5)
+
+### Chores
+
+* **internal:** support pre-release versioning ([#77](https://github.com/anthropics/anthropic-bedrock-typescript/issues/77)) ([b96f745](https://github.com/anthropics/anthropic-bedrock-typescript/commit/b96f745cf406677a552c863b2c5ee967f3353919))
+
 ## 0.6.4 (2024-01-25)
 
 Full Changelog: [v0.6.3...v0.6.4](https://github.com/anthropics/anthropic-bedrock-typescript/compare/v0.6.3...v0.6.4)
